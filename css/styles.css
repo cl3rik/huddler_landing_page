@@ -1,6 +1,6 @@
 body{    
     background-color: hsl(257, 40%, 49%);
-    background-image: url(/images/bg-desktop.svg);
+    background-image: url(bg-desktop.svg);
     background-repeat: no-repeat;
     background-size: 95%;
 }
@@ -73,6 +73,7 @@ body{
 @media (max-width: 1200px) {
     body {
         text-align: center;
+        background-image: url(bg-mobile.svg);
     }
     .main{
         padding: 1% 10%;
