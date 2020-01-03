@@ -2,20 +2,16 @@ body{
     background-color: hsl(257, 40%, 49%);
     background-image: url(bg-desktop.svg);
     background-repeat: no-repeat;
-    background-size: 95%;
 }
 
 /* Sections */
 
 .logo{
-    padding: 3% 5%;
+    padding: 3%;
 }
 
-.logo img {
-    width: 200px;
-}
 .main{
-    padding: 1% 5%;
+    padding: 2% 5%;
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
 }
@@ -38,7 +34,7 @@ body{
 }
 
 .description p{
-    font-size: 0.85rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 2;
     padding-bottom: 20px;
@@ -70,7 +66,7 @@ body{
 
 /* Media Mobile */
 
-@media (max-width: 1200px) {
+@media (max-width: 375px) {
     body {
         text-align: center;
         background-image: url(bg-mobile.svg);
