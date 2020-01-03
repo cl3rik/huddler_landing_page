@@ -21,6 +21,7 @@ body{
     text-align: right;
     padding: 1% 5%;
     color: #ffffff;
+    text-decoration: none;
 }
 
 /* Description Section */
@@ -53,7 +54,7 @@ body{
 /* Social Section */
 
 .social a{
-
+    color: #ffffff;
     text-align: center;
     display: inline-block;
     width: 40px;
